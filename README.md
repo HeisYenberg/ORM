@@ -1,18 +1,18 @@
-# ORM: Простой ORM для Java с использованием Reflections API
+ORM: A Simple ORM for Java Using the Reflections API
 
-ORM - это простой объектно-реляционный отображатель (ORM), написанный на Java, который использует Reflections API для автоматического преобразования Java-объектов в SQL-запросы и обратно. Этот проект предназначен для небольших приложений, где не требуется полноценный ORM-фреймворк, таких как Hibernate.
+ORM is a simple object-relational mapper (ORM) written in Java, which uses the Reflections API to automatically convert Java objects into SQL queries and vice versa. This project is intended for small applications where a full-fledged ORM framework like Hibernate is not required.
 
-## Функции
+Features:
 
-- Преобразование Java-объектов в SQL-запросы (INSERT, UPDATE, DELETE).
-- Генерация SQL-запросов для создания таблиц на основе классов Java.
-- Использование Reflections API для динамического анализа классов и полей.
+Conversion of Java objects into SQL queries (INSERT, UPDATE, DELETE).
+Generation of SQL queries for creating tables based on Java classes.
+Use of the Reflections API for dynamic analysis of classes and fields.
 
-## Предварительные требования
+Prerequisites:
 
-- Java 8 или более позднюю версию.
-- Maven для сборки проекта.
-- PostgreSQL database for data storage.
+Java 8 or a later version.
+Maven for building the project.
+PostgreSQL database for data storage.
 
 ## Database Setup
 
